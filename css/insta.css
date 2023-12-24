@@ -1,0 +1,15 @@
+.InstaPage
+{
+width:100%;
+margin-top:2em;
+}
+.InstaPage .InstaPage_parent
+{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.InstaPage_parent img:hover
+{
+background-image: url("./images/insta/instagram.svg");
+}

@@ -1,0 +1,87 @@
+.SubMenuPage
+{
+width:100%;
+height:800px;
+}
+.SubMenuPage .SubMenuPage_parent
+{
+width:100%;
+height:770px;
+position:relative;
+background-color:#FEF6F4;
+}
+.SubMenuPage_parent .SubMenuPage_child1--image
+{
+height:320px;
+width:320px;
+left:0em;
+bottom:3px;
+position:absolute;
+z-index:1;
+}
+.SubMenuPage_parent .SubMenuPage_child2--image
+{
+height:600px;
+width:100%;
+right:0em;
+bottom:0px;
+position:absolute;
+}
+.SubMenuPage_child2 h3
+{
+font-size:5em;
+font-weight:bold;
+font-family: 'Quicksand', sans-serif;
+text-align:left;
+font-color:#000000;
+position:absolute;
+left:85px;
+top:180px;
+width:50%;
+line-height:1.2em;
+cursor: context-menu;
+}
+.SubMenuPage_child2 h2
+{
+font-size:8em;
+font-weight:400;
+font-style:italic;
+font-family: 'Lobster', sans-serif;
+text-align:left;
+color:#FDECE6;
+position:absolute;
+left:80px;
+top:100px;
+
+line-height:1.2em;
+}
+.SubMenuPage_child2 .SubMenuPage_child2--para1
+{
+font-size:1.1em;
+font-weight:500;
+text-align:left;
+font-color:#000000;
+position:absolute;
+left:85px;
+top:380px;
+padding-top:1em;
+line-height:1.5em;
+width:40%;
+cursor: context-menu;
+}
+.SubMenuPage_child2 .SubMenuPage_child2--para2
+{
+font-size:1.2em;
+font-weight:normal;
+text-align:center;
+position:absolute;
+left:94px;
+top:490px;
+z-index:1;
+
+background-color:#DC3F06;
+color:#ffffff;
+padding:1em 3em 1em 3em;
+border-radius:1.7em;
+cursor:pointer;
+}

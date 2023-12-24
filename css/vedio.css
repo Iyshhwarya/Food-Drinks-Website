@@ -1,0 +1,13 @@
+.VedioPage
+{
+width:100%;
+}
+.VedioPage .VedioPage_child1
+{
+cursor: context-menu;
+}
+.VedioPage_child1 .VedioPage_child1--vedio
+{
+width:100%;
+
+}

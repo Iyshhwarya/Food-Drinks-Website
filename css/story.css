@@ -1,0 +1,73 @@
+.StoryPage
+{
+background-color:#ffffff;
+}
+.StoryPage .StoryPage_parent
+{
+display:flex;
+align-items:center;
+justify-content:center;
+
+height:600px;
+}
+.StoryPage_parent .StoryPage_child2
+{
+margin:0em;
+padding:0em 0em 0em 3em;
+width:40%;
+}
+.StoryPage_child2 .StoryPage_child2--para1
+{
+margin-top:0em;
+margin-bottom:1em;
+font-size:1.1em;
+font-weight:400;
+color:#e54206;
+text-align:left;
+cursor: context-menu;
+letter-spacing:0.1em;
+}
+.StoryPage_child2 .StoryPage_child2--para2
+{
+margin-top:0em;
+font-family: 'Quicksand', sans-serif;
+margin-bottom:0.5em;
+font-size:1.9em;
+font-weight:800;
+color:#000000;
+text-align:left;
+line-height:1.7em;
+cursor: context-menu;
+}
+.StoryPage_child2 .StoryPage_child2--para3
+{
+margin-top:0em;
+margin-bottom:0em;
+font-size:1.1em;
+font-weight:400;
+color:#000000;
+text-align:left;
+line-height:1.5em;
+cursor: context-menu;
+letter-spacing:0.2px;
+}
+.StoryPage_child2 .StoryPage_child2--para4
+{
+margin-top:2.4em;
+font-size:1.2em;
+font-weight:normal;
+text-align:left;
+}
+.StoryPage_child2 span 
+{
+background-color:#DC3F06;
+color:#ffffff;
+padding:0.8em 2em 0.8em 2em;
+border-radius:1.7em;
+cursor:pointer;
+}
+.StoryPage_parent .StoryPage_child1--image
+{
+text-align:center;
+padding-right:4em;
+}
