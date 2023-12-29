@@ -2,6 +2,7 @@
 {
 margin-top:3em;
 width:100%;
+box-size:border-boxing;
 background-color:#ffffff;
 }
 .FeaturePage .FeaturePage_parent
@@ -82,9 +83,9 @@ justify-content:center;
 }
 .FeaturePage_child3--part1:hover
 {
-background-color:#ffffff;
+background-color:green;
 border-radius:0.5em;
-padding:1em 1em 0em 1em;
+padding:0em 0em 0em 0em;
 width:100%;
 height:300px;
 }

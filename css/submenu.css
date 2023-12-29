@@ -8,7 +8,9 @@ height:800px;
 width:100%;
 height:770px;
 position:relative;
-background-color:#FEF6F4;
+box-sizing: border-box;
+z-index:-1;
+background-color: #FEF6F4;
 }
 .SubMenuPage_parent .SubMenuPage_child1--image
 {
@@ -21,12 +23,14 @@ z-index:1;
 }
 .SubMenuPage_parent .SubMenuPage_child2--image
 {
-height:600px;
+position: absolute;
+bottom: 0;
+right: 0;
+top:0em;
 width:100%;
-right:0em;
-bottom:0px;
-position:absolute;
 }
+
+
 .SubMenuPage_child2 h3
 {
 font-size:5em;

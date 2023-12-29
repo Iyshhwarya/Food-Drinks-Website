@@ -1,13 +1,21 @@
 .InstaPage
 {
 width:100%;
-margin-top:2em;
+height:auto;
+margin-top:2em 0em 0em 0em;
+padding:0px;
 }
 .InstaPage .InstaPage_parent
 {
 display:flex;
 align-items:center;
-justify-content:center;
+justify-content:flext-start;
+
+}
+.InstaPage_parent img
+{
+width:100%;
+box-sizing:border:box;
 }
 .InstaPage_parent img:hover
 {
