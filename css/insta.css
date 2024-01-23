@@ -1,0 +1,43 @@
+.InstaPage
+{
+width:100%;
+height:auto;
+margin:7em 0em 0em 0em;
+padding:0px;
+}
+.InstaPage .InstaPage_parent
+{
+display:flex;
+align-items:center;
+justify-content:flext-start;
+
+}
+
+.InstaPage_parent--child1 {
+    
+    height:280px;
+    width:320px;
+    position: relative;
+    
+}
+
+.InstaPage_parent--child1 .InstaPage_parent--child1--img01 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.InstaPage_parent--child1 .InstaPage_parent--child1--img02 {
+    height: 30px;
+    width: 30px;
+    top:120px;
+    right:45%;
+    position: absolute;
+    opacity: 0; 
+    display:block;
+    transition: transform 0.9s ease-in-out;
+    
+}
+.InstaPage_parent--child1:hover .InstaPage_parent--child1--img02{
+    transform: translate(0px, 10px);
+    opacity: 1;
+}

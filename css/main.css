@@ -1,0 +1,20 @@
+@import url("nav.css");
+@import url("submenu.css");
+@import url("slider.css");
+@import url("story.css");
+@import url("feature.css");
+@import url("vedio.css");
+@import url("testimonial.css");
+@import url("insta.css");
+@import url("footer.css");
+
+
+
+
+
+
+*{
+    margin:0em;
+    padding:0em;
+    }
+    

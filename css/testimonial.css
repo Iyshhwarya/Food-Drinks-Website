@@ -1,0 +1,114 @@
+.TestimonialPage
+{
+width:100%;
+}
+.TestimonialPage .TestimonialPage_Parent
+{
+background-color:#ffffff;
+width:100%;
+height:550px;
+}
+
+.TestimonialPage_child1 .TestimonialPage_child1--para1
+{
+padding-top:5em;
+margin-top:0em;
+margin-bottom:1em;
+font-size:1.1em;
+font-weight:400;
+color:#e54206;
+text-align:center;
+letter-spacing:0.1em;
+font-family: 'DM Sans', sans-serif;
+}
+
+.TestimonialPage_child1 .TestimonialPage_child1--para2
+{
+margin-top:0em;
+font-family: 'Quicksand', sans-serif;
+margin-bottom:0.5em;
+font-size:1.9em;
+font-weight:800;
+color:#000000;
+text-align:center;
+line-height:1.7em;
+}
+
+.TestimonialPage_child2 .TestimonialPage_child2--para1
+{
+margin-top:0em;
+margin-bottom:0em;
+font-size:1.45em;
+font-weight:400;
+color:#391F14;
+text-align:left;
+letter-spacing:0.2px;
+line-height:1.4em;
+cursor:context-menu;
+font-family: 'DM Sans', sans-serif;
+}
+.TestimonialPage_child2 .TestimonialPage_child2--part1
+{
+margin-top:1.7em;
+display:flex;
+align-items:center;
+justify-content:flex-start;
+}
+.TestimonialPage_child2--part2 .TestimonialPage_child2--para2
+{
+margin-top:0em;
+margin-bottom:0em;
+font-size:1.25em;
+font-weight:400;
+color:#e54206;
+text-align:left;
+letter-spacing:0.2px;
+line-height:1.8em;
+cursor:context-menu;
+font-family: 'DM Sans', sans-serif;
+}
+.TestimonialPage_child2--part2 .TestimonialPage_child2--para3
+{
+margin-top:0em;
+margin-bottom:0em;
+font-size:0.85em;
+font-weight:400;
+color:#737373;
+text-align:left;
+letter-spacing:0.2px;
+width:100%;
+cursor:context-menu;
+font-family: 'DM Sans', sans-serif;
+}
+
+.TestimonialPage_Parent .TestimonialPage_child2
+{
+width:40%;
+padding-left:2em;
+}
+.TestimonialPage_Parent .TestimonialPage_child2--division
+{
+margin-top:4em;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.TestimonialPage_child2 .TestimonialPage_child2--part2
+{
+margin-left:1em;
+}
+.TestimonialPage_child2--division .TestimonialPage_child2
+{
+background-color:white;
+border-bottom-right-radius:3em;
+margin:0em 2em 2em 2em;
+padding:2em;
+height:250px;
+width:30%;
+
+transition:background-color 0.5s ease;
+}
+.TestimonialPage_child2--division .TestimonialPage_child2:hover{
+    background-color:white;
+    box-shadow: 10px 10px 10px 8px #FDEFEA;
+}
