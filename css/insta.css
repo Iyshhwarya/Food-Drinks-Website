@@ -46,3 +46,18 @@ justify-content:flext-start;
 
 
 /*media query*/
+@media (max-width:991px)
+{
+    .InstaPage_parent--child1 .InstaPage_parent--child1--img02 {
+        height: 15px;
+        width: 15px;
+        top:120px;
+        right:45%;
+        position: absolute;
+        opacity: 0; 
+        display:block;
+        transition: transform 0.9s ease-in-out;
+        filter: invert(100%);
+    }
+     
+}
