@@ -94,13 +94,25 @@ padding:1em 2em 1em 2em;
 border-radius: 2em;
 margin-left:1.6em;
 }
+button:hover{
+    animation-name: example;
+    animation-duration: 2s;
+}
+/*Animation*/
+@keyframes example {
+    from {background-color: #F04506;}
+    to {background-color: #f57242;}
+  }
+
+
 .NavPage__parent--child2 .child2_img01
 {
-    width:90%;
-    height:25px;
+    width:85%;
+    height:20px;
     cursor:pointer;
-    transform: skewX(15deg);
+    transform: skewX(10deg);
     transition:transform 0.5s ease;
+    background-color: blue;
 }
 .NavPage__parent--child2 .child2_img01:hover{
     transform: rotate(30deg);
@@ -154,36 +166,78 @@ cursor:pointer;
     left: 8px;
     
 }
+
+
+
+
 .NavPage_parent1{
-    background-color:4C4C4C;
-    padding:1em;
+    background-color:#4C4C4C;
     color:white;
     z-index:1;
     display:none;
+    height:50px;
+    width:93%;
+    margin-left: 2em;
+    
 }
-.NavPage_parent1 p
+.NavPage_parent1 .NavPage_parent1__child--part1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-left:1em;
+    
+}
+
+.NavPage_parent1 .NavPage_parent1--child{
+    background-color: black;
+    color:white;
+    width:80px;
+    height:20px;
+    padding:0.4em;
+    border-radius: 0.2em;
+    margin-right:2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.NavPage_parent1--child p
 {
-text-align: right;
-font-size: 1em;
+text-align:left;
+font-size: 0.95em;
 color:white;
 font-family: 'Quicksand', sans-serif;
 font-weight: bold;
 cursor:pointer;
-margin-top:0em;
+margin:0em;
 padding:0em;
+}
+
+.NavPage_parent1_child1{
+    background-color:#4C4C4C;
+    color:white;
+    z-index:1;
+    display:none;
+    margin-left: 2em;
+    height:150px;
+    width:93%;
+    visibility:hidden;
 }
 .NavPage_parent1_child1 p
 {
 text-align: left;
-font-size: 0.8em;
+font-size: 0.85em;
 color:white;
 font-family: 'Quicksand', sans-serif;
 font-weight: normal;
 cursor:pointer;
-margin-top:0.4em;
-padding:0em;
-
+margin:0em;
+padding:0.5em 0em 0em 1em;
 }
+
+
 
 
 /*Media Query */
@@ -191,11 +245,13 @@ padding:0em;
 @media (max-width: 991px){
     .NavPage_parent .NavPage__parent--child2,
     .NavPage__parent--child1 div,
-    .NavPage__parent--child1 h1
-    {
-     display:none;
+    .NavPage__parent--child1 h1{
+        display: none;
     }
-    .NavPage_parent1{
+    
+    
+    .NavPage_parent1,
+    .NavPage_parent1_child1{
         display:block;
     }
 }
