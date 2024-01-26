@@ -1,7 +1,7 @@
 .TestimonialPage
 {
-/* margin-top:1em; */
-width:100%;
+    /* margin: 0 auto; */
+    width:100%;
 }
 .TestimonialPage .TestimonialPage_Parent
 {
@@ -151,7 +151,11 @@ transition:background-color 0.5s ease;
 
 
 /*media query*/
-@media (max-width:991px){
+@media (min-width:320px){
+    .TestimonialPage{
+        width:100%;
+    }
+
     .TestimonialPage_child2--division .TestimonialPage_child2--division__icon1{
         display: none;
     }
