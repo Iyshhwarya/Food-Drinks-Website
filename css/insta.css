@@ -24,7 +24,7 @@ justify-content:flext-start;
     height: 100%;
     width: 100%;
     position: absolute;
-    object-fit: contain;
+    object-fit:contain;
 }
 .InstaPage_parent--child1 .InstaPage_parent--child1--img02 {
     height: 30px;
