@@ -156,7 +156,8 @@ font-family: 'Quicksand', sans-serif;
     .FeaturePage_child3 .FeaturePage_child3--part3
     {
         margin:2em 0em 0em 0em;
-        width:100%;
+        width:70%;
+        height:auto;
     }
     .FeaturePage_parent .FeaturePage_child1--image{
         display: none;

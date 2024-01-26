@@ -8,9 +8,10 @@
     background-image:url("../images/submenu/h1_hero1.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: auto 760px;
-    /* overflow:hidden; */
-    /* background-origin: content-box; */
+    background-size: 100%;
+    /* background-size:cover; */
+    
+    background-origin: content-box;
 }
 .SubMenuPage_child2
 {
