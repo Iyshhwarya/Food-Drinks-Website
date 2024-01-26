@@ -1,5 +1,6 @@
 .TestimonialPage
 {
+/* margin-top:1em; */
 width:100%;
 }
 .TestimonialPage .TestimonialPage_Parent
@@ -111,7 +112,7 @@ padding:2em;
 height:auto;
 width:30%;
 transition:background-color 0.5s ease;
-background-color: #e54206;
+
 }
 
 .TestimonialPage_child2--division .TestimonialPage_child2___part2
@@ -137,7 +138,16 @@ transition:background-color 0.5s ease;
     font-size:2em;
     color:#F04506;
 }
-
+.TestimonialPage_child2--part1 .TestimonialPage_child2--part1--img11{
+    vertical-align: middle;
+    height:85px;
+    width:80px;
+}
+.TestimonialPage_child2--part1 .TestimonialPage_child2--part1--img12{
+    vertical-align: middle;
+    height:75px;
+    width:80px;
+}
 
 
 /*media query*/
