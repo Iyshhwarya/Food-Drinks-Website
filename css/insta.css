@@ -18,13 +18,13 @@ justify-content:flext-start;
     height:280px;
     width:320px;
     position: relative;
-    
 }
 
 .InstaPage_parent--child1 .InstaPage_parent--child1--img01 {
     height: 100%;
     width: 100%;
     position: absolute;
+    object-fit: contain;
 }
 .InstaPage_parent--child1 .InstaPage_parent--child1--img02 {
     height: 30px;
@@ -35,9 +35,14 @@ justify-content:flext-start;
     opacity: 0; 
     display:block;
     transition: transform 0.9s ease-in-out;
-    
+    filter: invert(100%);
 }
 .InstaPage_parent--child1:hover .InstaPage_parent--child1--img02{
     transform: translate(0px, 10px);
     opacity: 1;
 }
+
+
+
+
+/*media query*/
