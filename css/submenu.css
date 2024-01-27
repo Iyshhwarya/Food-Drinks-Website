@@ -99,24 +99,24 @@ z-index:2;
    .SubMenuPage_child2 h2{
     top:100px;
     left:1em;
-    font-size:1.7em;
+    font-size:2.4em;
    }
    .SubMenuPage_child2 h3{
-    width:70%;
-    top:180px;
+    width:80%;
+    top:150px;
     left:1em;
-    font-size:1.5em;
+    font-size:2em;
    }
    .SubMenuPage_child2 p{
     font-size:1.2em;
     font-weight: 300;
     top:200px;
-    left:1em;
-    width:60%;
+    left:1.1em;
+    width:80%;
    }
    .SubMenuPage .SubMenuPage_child2 button{
     top:280px;
-    font-size: 0.9em;
+    font-size: 0.95em;
     left:1em;
     background-color:red;
    }
