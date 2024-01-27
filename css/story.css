@@ -96,7 +96,6 @@ text-align:center;
     .StoryPage
     {
         height:auto;
-        background-color:aqua;
     }
     .StoryPage .StoryPage_parent{
         flex-direction: column;

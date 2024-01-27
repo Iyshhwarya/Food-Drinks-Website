@@ -152,9 +152,8 @@ transition:background-color 0.5s ease;
 /*media query*/
 @media (max-width:991px){
     .TestimonialPage{
-        /* width:100%; */
+       
         height:auto;
-        /* background-color: #F04506; */
     }
 
     .TestimonialPage_child2--division .TestimonialPage_child2--division__icon1{
