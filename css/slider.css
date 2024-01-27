@@ -170,7 +170,7 @@ cursor: context-menu;
 
 /* media query */
 
-@media (min-width:320px){
+@media only screen and (min-width:320px){
     
     .SliderParent__child2--part2,
     .SliderParent__child2--part3,

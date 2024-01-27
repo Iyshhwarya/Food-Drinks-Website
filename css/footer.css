@@ -145,6 +145,7 @@ color:#DB3F06;
     }
     .FooterPage .FooterPage_parent{
         height:auto;
+        padding-bottom:5em;
     }
     .FooterPage_parent--part1 .FooterPage_child2,
     .FooterPage_parent--part1 .FooterPage_child1
