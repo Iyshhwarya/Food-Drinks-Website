@@ -92,7 +92,7 @@ z-index:2;
 
 
 /*media query*/
-@media(max-width:991px){
+@media(max-width:381px){
    .SubMenuPage .SubMenuPage_child1--img01{
     display:none;
    }
@@ -118,7 +118,7 @@ z-index:2;
     top:350px;
     font-size: 0.95em;
     left:1.7em;
-    background-color:green;
+    
    }
    .SubMenuPage{
     width:100%;
