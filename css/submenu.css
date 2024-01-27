@@ -97,21 +97,26 @@ z-index:2;
     display:none;
    }
    .SubMenuPage_child2 h2{
-    top:140px;
-
+    top:280px;
+    left:0.2em;
+    font-size:6em;
    }
    .SubMenuPage_child2 h3{
     width:70%;
-    top:260px;
+    top:380px;
+    left:0.5em;
+    font-size:2.2em;
    }
    .SubMenuPage_child2 p{
-    font-size:1.4em;
+    font-size:1.2em;
     font-weight: 300;
-    top:450px;
+    top:460px;
+    left:1em;
     width:60%;
    }
    .SubMenuPage .SubMenuPage_child2 button{
     top:580px;
-    font-size: 1.7em;
+    font-size: 1em;
+    left:1em;
    }
 }
