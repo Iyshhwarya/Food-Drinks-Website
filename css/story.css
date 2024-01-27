@@ -102,7 +102,7 @@ cursor:pointer;
        font-size:0.8em;
     }
 } */
-@media (max-width:991px){
+@media (min-width:320px){
     .StoryPage
     {
         height:auto;
@@ -137,9 +137,9 @@ cursor:pointer;
     }
     
    .StoryPage_parent .StoryPage_child1--image{
-    height:350px;
-    width:380px;
-    margin-top:0em;
+        height:350px;
+        width:380px;
+        margin-top:0em;
     
     }
 }

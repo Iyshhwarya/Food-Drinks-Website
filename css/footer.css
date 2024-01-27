@@ -139,7 +139,7 @@ color:#DB3F06;
 
 
 /*media query*/
-@media(max-width:991px){
+@media(min-width:320px){
     .FooterPage .FooterPage_parent--part1{
         flex-direction:column;
     }

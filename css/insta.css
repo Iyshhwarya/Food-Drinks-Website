@@ -54,14 +54,11 @@ box-sizing: border-box;
 
 
 /*media query*/
-@media (max-width:991px){
+@media (min-width:320px){
     .InstaPage_parent--child2{
         display:none;
     }
-    /* .InstaPage{
-    margin:0em 0em 0em 0em;
-    padding:0px;
-    } */
+    
     .InstaPage .InstaPage_parent{
     display:flex;
     align-items:center;

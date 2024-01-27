@@ -1,32 +1,32 @@
 .FeaturePage
 {
-width:100%;
-height: 700px;
-box-sizing:border-box;
+    width:100%;
+    height: 700px;
+    box-sizing:border-box;
 }
 .FeaturePage .FeaturePage_parent
 {
-width:100%;
-background-color:#FFF5F2;
-height:700px;
-position:relative;
+    width:100%;
+    background-color:#FFF5F2;
+    height:700px;
+    position:relative;
 }
 
 .FeaturePage_parent .FeaturePage_child3
 {
-display:flex;
-align-items:center;
-justify-content:center;
-/* background-color: aquamarine; */
-height:auto;
-width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* background-color: aquamarine; */
+    height:auto;
+    width:100%;
 }
 
 .FeaturePage_parent .FeaturePage_child1--image
 {
-right:0em;
-top:-100px;
-position:absolute;
+    right:0em;
+    top:-100px;
+    position:absolute;
 
 }
 .FeaturePage_child3--part1 .FeaturePage_child3--part1--img01,
@@ -41,106 +41,104 @@ position:absolute;
 }
 .FeaturePage_child2 .FeaturePage_child2--para1
 {
-padding-top:6em;
-margin-top:0em;
-margin-bottom:1em;
-font-size:1.1em;
-font-weight:400;
-color:#e54206;
-text-align:center;
-letter-spacing:0.1em;
-font-family: 'DM Sans', sans-serif;
+    padding-top:6em;
+    margin-top:0em;
+    margin-bottom:1em;
+    font-size:1.1em;
+    font-weight:400;
+    color:#e54206;
+    text-align:center;
+    letter-spacing:0.1em;
+    font-family: 'DM Sans', sans-serif;
 }
 .FeaturePage_child2 .FeaturePage_child2--para2
 {
-margin-top:0em;
-font-family: 'Quicksand', sans-serif;
-margin-bottom:0.5em;
-font-size:1.9em;
-font-weight:800;
-color:#000000;
-text-align:center;
-line-height:1.7em;
+    margin-top:0em;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom:0.5em;
+    font-size:1.9em;
+    font-weight:800;
+    color:#000000;
+    text-align:center;
+    line-height:1.7em;
 }
 .FeaturePage_child3--part1 .FeaturePage_child3--para1:hover,
 .FeaturePage_child3--part2 .FeaturePage_child3--para1:hover,
 .FeaturePage_child3--part3 .FeaturePage_child3--para1:hover
 {
-color:#d93e06;
+    color:#d93e06;
 }
 .FeaturePage_child3--part1 .FeaturePage_child3--para2,
 .FeaturePage_child3--part2 .FeaturePage_child3--para2,
 .FeaturePage_child3--part3 .FeaturePage_child3--para2
 {
-margin-top:0em;
-margin-bottom:0em;
-font-size:0.935em;
-font-weight:normal;
-color:#000000;
-letter-spacing:0.2px;
-line-height:1.8em;
-font-family: 'DM Sans', sans-serif;
+    margin-top:0em;
+    margin-bottom:0em;
+    font-size:0.935em;
+    font-weight:normal;
+    color:#000000;
+    letter-spacing:0.2px;
+    line-height:1.8em;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .FeaturePage_child3 .FeaturePage_child3--part1
 {
-background-color:#FFF5F2;
-text-align:center;
-width:23%;
-height:320px;
-padding:2em;
-transition: background-color 0.3s ease;
-margin:2em 2em 0em 3em;
+    background-color:#FFF5F2;
+    text-align:center;
+    width:23%;
+    height:320px;
+    padding:2em;
+    transition: background-color 0.3s ease;
+    margin:2em 2em 0em 3em;
 }
 .FeaturePage_child3 .FeaturePage_child3--part2
 {
-background-color:#FFF5F2;
-
-text-align:center;
-width:23%;
-height:320px;
-padding:2em;
-transition: background-color 0.3s ease;
-margin:2em 2em 0em 0em;
+    background-color:#FFF5F2;
+    text-align:center;
+    width:23%;
+    height:320px;
+    padding:2em;
+    transition: background-color 0.3s ease;
+    margin:2em 2em 0em 0em;
 }
 .FeaturePage_child3 .FeaturePage_child3--part3
 {
-background-color:#FFF5F2;
-
-text-align:center;
-width:23%;
-height:320px;
-padding:2em;
-transition: background-color 0.3s ease;
-margin:2em 2em 0em 0em;
+    background-color:#FFF5F2;
+    text-align:center;
+    width:23%;
+    height:320px;
+    padding:2em;
+    transition: background-color 0.3s ease;
+    margin:2em 2em 0em 0em;
 }
 
 .FeaturePage_child3 .FeaturePage_child3--part1:hover,
 .FeaturePage_child3 .FeaturePage_child3--part2:hover,
 .FeaturePage_child3 .FeaturePage_child3--part3:hover
 {
-background-color:white;
+    background-color:white;
 
 }
 .FeaturePage_child3--part1 .FeaturePage_child3--para1,
 .FeaturePage_child3--part2 .FeaturePage_child3--para1,
 .FeaturePage_child3--part3 .FeaturePage_child3--para1
 {
-margin-top:1.7em;
-margin-bottom:0.5em;
-font-size:1.1em;
-font-weight:700;
-color:#000000;
-line-height:1.5em;
-cursor: pointer;
-letter-spacing:0.2px;
-text-align:center;
-font-family: 'Quicksand', sans-serif;
+    margin-top:1.7em;
+    margin-bottom:0.5em;
+    font-size:1.1em;
+    font-weight:700;
+    color:#000000;
+    line-height:1.5em;
+    cursor: pointer;
+    letter-spacing:0.2px;
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
 /*media query*/
-@media (max-width:991px){
+@media (min-width:991px){
     .FeaturePage{
         height:auto;
         
