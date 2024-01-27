@@ -3,7 +3,6 @@
 background-color:#ffffff;
 height:600px;
 width:100%;
-margin:0em auto;
 box-sizing: border-box;
 }
 .StoryPage .StoryPage_parent
@@ -87,20 +86,24 @@ text-align:center;
 /* media query*/
 
 
-@media (min-width: 850px){
+/* @media (min-width: 850px){
     .StoryPage_child2 .StoryPage_child2--para3{
        
        font-size:0.8em;
     }
-}
+} */
 @media (max-width:991px){
     .StoryPage
     {
         height:auto;
+        background-color:aqua;
     }
     .StoryPage .StoryPage_parent{
         flex-direction: column;
         
     }
-   
+   .StoryPage_parent .StoryPage_child2
+   {
+   padding:0em 2em 4em 0em;
+   }
 }

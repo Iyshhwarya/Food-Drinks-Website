@@ -1,6 +1,5 @@
 .FeaturePage
 {
-margin-top:3em;
 width:100%;
 height: 700px;
 box-sizing:border-box;
@@ -142,12 +141,17 @@ font-family: 'Quicksand', sans-serif;
 
 /*media query*/
 @media (max-width:991px){
+    .FeaturePage{
+        height:auto;
+        
+    }
     .FeaturePage .FeaturePage_parent{
         height:auto;
         
     }
     .FeaturePage_child3{
         flex-direction: column;
+        padding-bottom: 5em;
     }
     .FeaturePage_child3 .FeaturePage_child3--part1,
     .FeaturePage_child3 .FeaturePage_child3--part2,
@@ -157,6 +161,7 @@ font-family: 'Quicksand', sans-serif;
         width:50%;
         height:auto;
     }
+    
     .FeaturePage_parent .FeaturePage_child1--image{
         display: none;
     }
