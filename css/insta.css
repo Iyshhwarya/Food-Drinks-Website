@@ -54,7 +54,7 @@ box-sizing: border-box;
 
 
 /*media query*/
-@media (min-width:320px){
+@media only screen and (min-width:320px){
     .InstaPage_parent--child2{
         display:none;
     }

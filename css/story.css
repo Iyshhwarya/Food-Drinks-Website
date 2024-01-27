@@ -116,8 +116,8 @@ cursor:pointer;
     }
    .StoryPage_parent .StoryPage_child2
    {
-   
-        margin-top:0em;
+
+        margin:0em 0em 0em 2em;
         padding:1em;
    }
    .StoryPage_child2 .StoryPage_child2--para1{

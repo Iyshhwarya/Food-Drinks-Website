@@ -180,11 +180,12 @@ cursor: context-menu;
     }
     .SliderParent__child2 .SliderParent__child2--part1{
         
-        margin:0em 0em 0em 0em;
+        margin:0em 0em 0em 2em;
         padding: 0em;
         width:90%;
         height:450px;
         text-align: center;
+        
     }
     .SliderParent__child2--part1 .SliderParent__child2--ImageContainer
 

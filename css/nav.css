@@ -245,7 +245,7 @@ padding:0.5em 0em 0em 1em;
 
 /*Media Query */
 
-@media (min-width: 320px){
+@media only screen and (min-width:320px){
     .NavPage_parent .NavPage__parent--child2,
     .NavPage__parent--child1 div,
     .NavPage__parent--child1 h1{
