@@ -164,14 +164,16 @@ transition:background-color 0.5s ease;
     }
     .TestimonialPage_child2--division .TestimonialPage_child2{
         background-color:white;
-        
         border-bottom-right-radius:3em;
         margin:0em 2em 2em 2em;
         padding:2em;
         height:auto;
         width:100%;
         transition:background-color 0.5s ease;
-    }   
+    } 
+    .TestimonialPage_child2--part1 .TestimonialPage_child2--part1{
+        padding-bottom: 1em;
+    }
     .TestimonialPage_Parent .TestimonialPage_child2--division{
 
         margin-top: 1em;
