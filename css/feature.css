@@ -4,8 +4,6 @@ margin-top:3em;
 width:100%;
 height: 700px;
 box-sizing:border-box;
-/* background-color:#ffffff; */
-
 }
 .FeaturePage .FeaturePage_parent
 {
@@ -13,7 +11,6 @@ width:100%;
 background-color:#FFF5F2;
 height:700px;
 position:relative;
-background-color: #d93e06;
 }
 
 .FeaturePage_parent .FeaturePage_child3
