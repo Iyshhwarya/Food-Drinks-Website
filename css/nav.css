@@ -256,5 +256,6 @@ padding:0.5em 0em 0em 1em;
     .NavPage_parent1,
     .NavPage_parent1_child1{
         display:block;
+        z-index:1;
     }
 }

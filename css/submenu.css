@@ -2,21 +2,31 @@
 {
     width:100%;
     background-color:#FEF6F4;
-    height:760px;
+    height:800px;
     position:relative;
     z-index:-1;
-    background-image:url("../images/submenu/h1_hero1.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 100%;
-    /* background-size:cover; */
-    
-    background-origin: content-box;
 }
 .SubMenuPage_child2
 {
     width:40%;
 }
+.SubMenuPage .SubMenuPage__child{
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    right:0em;
+    bottom:0em;
+}
+
+.SubMenuPage__child .SubMenuPage_child1--img02
+{
+    height:100%;
+    width:100%;
+    position: absolute;
+    object-fit: cover;
+}
+
 .SubMenuPage .SubMenuPage_child1--img01
 {
     width:24%;
@@ -26,11 +36,11 @@
     z-index:1;
 }
 .SubMenuPage_child2 h2{
-    font-size:8em;
+    font-size:8.2em;
     font-family: 'Lobster', sans-serif;
     text-align:left;
     position:absolute;
-    top:75px;
+    top:90px;
     left:94px;
     font-weight:normal;
     color:#FDECE6;
@@ -43,18 +53,19 @@
     font-family: 'Quicksand', sans-serif;
     text-align:left;
     position:absolute;
-    top:175px;
+    top:200px;
     left:95px;
     line-height:1.1em;
     width:40%;
     z-index:1;
 }
 .SubMenuPage_child2 p{
-    font-size:1em;
+    font-size:1.1em;
     font-family: 'DM Sans', sans-serif;
     text-align:left;
     position:absolute;
-    top:340px;
+    font-weight: 600;;
+    top:380px;
     left:100px;
     line-height:1.8em;
     letter-spacing:0.2px;
@@ -74,22 +85,33 @@ border:none;
 padding:1em 2.5em 1em 2.5em;
 border-radius: 2em;
 position:absolute;
-left:90px;
-top:430px;
+left:93px;
+top:490px;
 z-index:2;
 }
-/* .SubMenuPage .SubMenuPage_child3--img01
-{
-    position:absolute;
-    width: auto;
-    height: 760px;
-    /* right:0em; */
-    overflow: hidden;
-    /* width:auto;
-    height:760px;
-    position:absolute;
-    display:block;
-    right:0px;
-    bottom:0px; */
-    /* right:-200px; */
-}  */
+
+
+/*media query*/
+@media(max-width:991px){
+   .SubMenuPage .SubMenuPage_child1--img01{
+    display:none;
+   }
+   .SubMenuPage_child2 h2{
+    top:140px;
+
+   }
+   .SubMenuPage_child2 h3{
+    width:70%;
+    top:260px;
+   }
+   .SubMenuPage_child2 p{
+    font-size:1.4em;
+    font-weight: 300;
+    top:450px;
+    width:60%;
+   }
+   .SubMenuPage .SubMenuPage_child2 button{
+    top:580px;
+    font-size: 1.7em;
+   }
+}
