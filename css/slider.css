@@ -216,6 +216,9 @@
 
 
 @media only screen and (min-width:765px){
+    .SliderParent{
+        /* background-color: aqua; */
+    }
     .SliderParent__child2 .SliderParent__child2--part3,
     .SliderParent__child2 .SliderParent__child2__icon1
     {
@@ -229,7 +232,7 @@
         height:410px;
         text-align: center;
         position:relative;
-        /* background-color: aqua; */
+        
         box-sizing: border-box;
         
     }
@@ -271,7 +274,6 @@
         height:410px;
         text-align: center;
         position:relative;
-        background-color: aqua;
         box-sizing: border-box;
         display:block;
     }
