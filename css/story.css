@@ -96,17 +96,11 @@ cursor:pointer;
 /* media query*/
 
 
-/* @media (min-width: 850px){
-    .StoryPage_child2 .StoryPage_child2--para3{
-       
-       font-size:0.8em;
-    }
-} */
+
 @media only screen and (min-width:320px){
     .StoryPage
     {
         height:auto;
-        
         
     }
     .StoryPage .StoryPage_parent{
@@ -142,4 +136,28 @@ cursor:pointer;
         margin-top:0em;
     
     }
+}
+@media(min-width:768px){
+    .StoryPage_parent .StoryPage_child2{
+        width:100%;
+        padding:0em;
+        margin: 0em;
+        
+    }
+    .StoryPage_child2 .StoryPage_child2--para2{
+        padding-left:1.4em;
+    }
+    .StoryPage_child2 .StoryPage_child2--para4{
+        padding-left:2em;
+    }
+    .StoryPage_child2 .StoryPage_child2--para1{
+        padding-left:2em;
+    }
+    .StoryPage_child2 .StoryPage_child2--para3{
+        font-size:0.9em;
+        line-height: 1.4em;
+        width: 80%;
+        padding-left:2em;
+    }
+
 }

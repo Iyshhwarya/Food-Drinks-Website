@@ -44,7 +44,7 @@
     left:94px;
     font-weight:normal;
     color:#FDECE6;
-    letter-spacing: 4px;
+    
     z-index:1;
     /* transform: translate 50px 0px; */
 }
@@ -74,20 +74,20 @@
 }
 .SubMenuPage_child2 button
 {
-text-align: center;
-font-size: 1.1em;
-color:white;
-font-family: 'DM Sans', sans-serif;
-font-weight: 600;
-cursor:pointer;
-background-color:#F04506;
-border:none;
-padding:1em 2.5em 1em 2.5em;
-border-radius: 2em;
-position:absolute;
-left:93px;
-top:490px;
-z-index:2;
+    text-align: center;
+    font-size: 1.1em;
+    color:white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    cursor:pointer;
+    background-color:#F04506;
+    border:none;
+    padding:1em 2.5em 1em 2.5em;
+    border-radius: 2em;
+    position:absolute;
+    left:93px;
+    top:490px;
+    z-index:2;
 }
 
 
@@ -124,4 +124,48 @@ z-index:2;
     width:100%;
     height:450px;
     }
+}
+@media(min-width:768px){
+    .SubMenuPage .SubMenuPage_child1--img01{
+        display:block;
+    }
+    .SubMenuPage_child2 h2{
+        top:25px;
+        left:0.5em;
+        font-size:5em;
+    }
+    .SubMenuPage_child2 h3{
+        width:20%;
+        top:90px;
+        left:3em;
+        font-size:2em;
+    }
+    .SubMenuPage_child2 p{
+        font-size:0.75em;
+        font-weight: 300;
+        top:200px;
+        left:7em;
+        width:50%;
+        line-height: 1.5em;
+    }
+    .SubMenuPage .SubMenuPage_child2 button{
+        top:260px;
+        font-size: 0.7em;
+        left:7em;
+        padding:1em 1.5em 1em 1.5em;
+    }
+    .SubMenuPage{
+        width:100%;
+        height:400px;
+        background-image: url(../images/submenu/h1_hero1.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .SubMenuPage .SubMenuPage__child{
+        display:none;
+    }
+    
+   
+    
 }

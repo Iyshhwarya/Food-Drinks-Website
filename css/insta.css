@@ -1,18 +1,18 @@
 .InstaPage
 {
-/* width:100%; */
-/* height:auto; */
-margin:0em 0em 0em 0em;
-padding:0px;
+    /* width:100%; */
+    /* height:auto; */
+    margin:0em 0em 0em 0em;
+    padding:0px;
 }
 .InstaPage .InstaPage_parent
 {
-display:flex;
-align-items:center;
-justify-content:flext-start;
-height:300px;
-width: 100%;
-box-sizing: border-box;
+    display:flex;
+    align-items:center;
+    justify-content:flext-start;
+    height:300px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .InstaPage_parent .InstaPage_parent--child1,
@@ -21,7 +21,6 @@ box-sizing: border-box;
     height: 100%;
     width: 100%;
     position: relative;
-    
 }
 
 .InstaPage_parent--child1 .InstaPage_parent--child1--img01,
@@ -60,21 +59,46 @@ box-sizing: border-box;
     }
     
     .InstaPage .InstaPage_parent{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:250px;
-    width: 100%;
-    box-sizing: border-box;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        height:250px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .InstaPage_parent .InstaPage_parent--child1
+    /* .InstaPage_parent .InstaPage_parent--child2*/{
+        height: 100%;
+        width: 670px;
+        position: relative;
+        object-fit:contain;
+    }
 }
 
+@media (min-width:768px){
+    .InstaPage_parent{
+        height:300px;
+        width: 100%;
+     
+    }
     .InstaPage_parent .InstaPage_parent--child1,
-    .InstaPage_parent .InstaPage_parent--child2{
-    height: 100%;
-    width: 670px;
-    position: relative;
-    object-fit:contain;
-}
+    .InstaPage_parent .InstaPage_parent--child2
+    {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: block;
+        
+    }
+    .InstaPage_parent--child1 .InstaPage_parent--child1--img01,
+    .InstaPage_parent--child2 .InstaPage_parent--child1--img01
+    {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        object-fit: contain;
+    }
 
-
+   
 }
