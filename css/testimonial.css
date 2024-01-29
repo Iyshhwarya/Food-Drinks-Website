@@ -154,6 +154,10 @@ transition:background-color 0.5s ease;
 @media only screen and (min-width:320px){
     .TestimonialPage{
        height:auto;
+       
+    }
+    .TestimonialPage .TestimonialPage_Parent{
+        height:auto
     }
 
     .TestimonialPage_child2--division .TestimonialPage_child2--division__icon1{
@@ -175,10 +179,14 @@ transition:background-color 0.5s ease;
     .TestimonialPage_Parent .TestimonialPage_child2--division{
 
         margin-top:1em;
-        padding-bottom: 4em;
+        padding-bottom: 8em;
     }
 
 }
+
+
+
+
 @media(min-width:768px){
     .TestimonialPage_child2--division .TestimonialPage_child2___part2{
         display:block;
