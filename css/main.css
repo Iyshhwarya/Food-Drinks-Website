@@ -8,16 +8,12 @@
 @import url("insta.css");
 @import url("footer.css");
 
-
-
-
-
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-    
+
 /* body{
     margin: 0;
     padding:0em;
@@ -26,10 +22,7 @@
     align-items: center;
     min-height: 100vh;
 } */
-    
-.bodyContainer{
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    
+
+.bodyContainer {
+  margin: 0em;
 }
