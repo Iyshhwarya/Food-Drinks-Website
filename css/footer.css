@@ -139,7 +139,7 @@ color:#DB3F06;
 
 
 /*media query*/
-@media only screen and (min-width:320px){
+@media only screen and (max-width:767px){
     .FooterPage .FooterPage_parent--part1{
         flex-wrap: wrap;
     }

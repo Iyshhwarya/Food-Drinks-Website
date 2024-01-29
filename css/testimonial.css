@@ -151,7 +151,7 @@ transition:background-color 0.5s ease;
 
 
 /*media query*/
-@media only screen and (min-width:320px){
+@media only screen and (max-width:767px){
     .TestimonialPage{
        height:auto;
        
