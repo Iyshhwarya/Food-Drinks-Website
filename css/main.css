@@ -13,12 +13,12 @@
 
 
 
-*{
+body{
     margin: 0;
     padding:0em;
     box-sizing: border-box;
     }
     
-body{
-   margin: 0 auto;
+.bodyContainer{
+    margin: 0 auto;
 }
