@@ -1,220 +1,188 @@
-.StoryPage
-{
-background-color:#ffffff;
-height:700px;
-width:100%;
-box-sizing: border-box;
-
+.StoryPage {
+  background-color: #ffffff;
+  height: 700px;
+  width: 100%;
+  box-sizing: border-box;
 }
-.StoryPage .StoryPage_parent
-{
-display: flex;
-align-items:flex-start;
-justify-content:space-around;
-width:100%;
-height:100%;
+.StoryPage .StoryPage_parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
 }
-.StoryPage_parent .StoryPage_child2
-{
-height: 300px;
-width: 600px;
-margin-top:15em;
-/* background-color: #DC3F06; */
+.StoryPage_parent .StoryPage_child2 {
+  height: 300px;
+  width: 600px;
+  margin-top: 15em;
+  /* background-color: #DC3F06; */
 }
-.StoryPage_parent .StoryPage_child1--image
-{
-
-height:490px;
-width:560px;
-/* background-color: #000000; */
-/* vertical-align: bottom; */
-margin-top:6em;
+.StoryPage_parent .StoryPage_child1--image {
+  height: 490px;
+  width: 560px;
+  /* background-color: #000000; */
+  /* vertical-align: bottom; */
+  margin-top: 6em;
 }
 
-
-.StoryPage_child2 .StoryPage_child2--para1
-{
-margin-top:0em;
-margin-bottom:1em;
-font-size:1.1em;
-font-weight:400;
-color:#e54206;
-text-align:left;
-cursor: context-menu;
-letter-spacing:0.1em;
-font-family: 'DM Sans', sans-serif;
+.StoryPage_child2 .StoryPage_child2--para1 {
+  margin-top: 0em;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #e54206;
+  text-align: left;
+  cursor: context-menu;
+  letter-spacing: 0.1em;
+  font-family: "DM Sans", sans-serif;
 }
-.StoryPage_child2 .StoryPage_child2--para2
-{
-margin-top:0em;
-font-family: 'Quicksand', sans-serif;
-margin-bottom:0.5em;
-font-size:1.9em;
-font-weight:800;
-color:#000000;
-text-align:left;
-line-height:1.7em;
-cursor: context-menu;
+.StoryPage_child2 .StoryPage_child2--para2 {
+  margin-top: 0em;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0.5em;
+  font-size: 1.9em;
+  font-weight: 800;
+  color: #000000;
+  text-align: left;
+  line-height: 1.7em;
+  cursor: context-menu;
 }
-.StoryPage_child2 .StoryPage_child2--para3
-{
-margin-top:0em;
-margin-bottom:0em;
-font-size:1em;
-font-weight:400;
-color:#000000;
-text-align:left;
-line-height:1.5em;
-cursor: context-menu;
-letter-spacing:0.2px;
-font-family: 'DM Sans', sans-serif;
-word-wrap: break-word;
-overflow:visible;
-
+.StoryPage_child2 .StoryPage_child2--para3 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: 1em;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;
+  line-height: 1.5em;
+  cursor: context-menu;
+  letter-spacing: 0.2px;
+  font-family: "DM Sans", sans-serif;
+  word-wrap: break-word;
+  overflow: visible;
 }
-.StoryPage_child2 .StoryPage_child2--para4
-{
-margin-top:2.6em;
-font-size:1em;
-font-weight:normal;
-text-align:left;
+.StoryPage_child2 .StoryPage_child2--para4 {
+  margin-top: 2.6em;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: left;
 }
-.StoryPage_child2--para4 span 
-{
-font-weight:normal;
-font-family: 'Quicksand', sans-serif;
-background-color:#DC3F06;
-color:#ffffff;
-padding:0.8em 2em 0.8em 2em;
-border-radius:1.7em;
-box-shadow:0px 15px 15px 2px #fcdbce;
-cursor:pointer;
+.StoryPage_child2--para4 span {
+  font-weight: normal;
+  font-family: "Quicksand", sans-serif;
+  background-color: #dc3f06;
+  color: #ffffff;
+  padding: 0.8em 2em 0.8em 2em;
+  border-radius: 1.7em;
+  box-shadow: 0px 15px 15px 2px #fcdbce;
+  cursor: pointer;
 }
-
-
 
 /* media query*/
 
+@media only screen and (min-width: 320px) {
+  .StoryPage {
+    height: auto;
+  }
+  .StoryPage .StoryPage_parent {
+    flex-direction: column;
+  }
+  .StoryPage_parent .StoryPage_child2 {
+    width: auto;
+    height: auto;
+    /* margin: 0em 0em 0em 2em; */
+    /* padding: 1em; */
+  }
+  .StoryPage_child2 .StoryPage_child2--para1 {
+    font-size: 1em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para2 {
+    font-size: 1.35em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para3 {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    width: 60%;
+  }
+  .StoryPage_child2 .StoryPage_child2--para4 {
+    font-size: 0.85em;
+  }
 
-
-@media only screen and (max-width:767px){
-    .StoryPage
-    {
-        height:auto;
-        
-    }
-    .StoryPage .StoryPage_parent{
-        flex-direction: column;
-        
-        
-    }
-   .StoryPage_parent .StoryPage_child2
-   {
-
-        margin:0em 0em 0em 2em;
-        padding:1em;
-   }
-   .StoryPage_child2 .StoryPage_child2--para1{
-        font-size:1em;
-    }
-    .StoryPage_child2 .StoryPage_child2--para2{
-        font-size:1.35em;
-    }
-    .StoryPage_child2 .StoryPage_child2--para3{
-        font-size:0.9em;
-        line-height: 1.4em;
-        width: 60%;
-    }
-    .StoryPage_child2 .StoryPage_child2--para4
-    {
-        font-size:0.85em;
-    }
-    
-   .StoryPage_parent .StoryPage_child1--image{
-        height:350px;
-        width:380px;
-        margin-top:0em;
-    
-    }
+  .StoryPage_parent .StoryPage_child1--image {
+    height: 350px;
+    width: 380px;
+    margin-top: 0em;
+  }
 }
-@media(min-width:768px){
-    
-    .StoryPage_parent .StoryPage_child2{
-        width:100%;
-        padding:0em;
-        margin: 0em;
-        
-    }
-    .StoryPage_child2 .StoryPage_child2--para2{
-        padding-left:1.4em;
-    }
-    .StoryPage_child2 .StoryPage_child2--para4{
-        padding-left:2em;
-    }
-    .StoryPage_child2 .StoryPage_child2--para1{
-        padding-left:2em;
-    }
-    .StoryPage_child2 .StoryPage_child2--para3{
-        font-size:0.9em;
-        line-height: 1.4em;
-        width: 80%;
-        padding-left:2em;
-    }
-
+@media (min-width: 768px) {
+  .StoryPage_parent .StoryPage_child2 {
+    width: 100%;
+    padding: 0em;
+    margin: 0em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para2 {
+    padding-left: 1.4em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para4 {
+    padding-left: 2em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para1 {
+    padding-left: 2em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para3 {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    width: 80%;
+    padding-left: 2em;
+  }
 }
 
-@media(min-width:1000px){
-    .StoryPage{
-        height:700px;
-        width:100%;
-    }
-    .StoryPage .StoryPage_parent{
-        
-        flex-direction: row;
-        align-items:flex-start;
-        justify-content:space-around;
-        width:100%;
-        height:100%;
-    }
-    .StoryPage_parent .StoryPage_child1--image{
-        height:490px;
-        width:560px;
-        margin-top:6em;
-    }
+@media (min-width: 1000px) {
+  .StoryPage {
+    height: 700px;
+    width: 100%;
+  }
+  .StoryPage .StoryPage_parent {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  .StoryPage_parent .StoryPage_child1--image {
+    height: 490px;
+    width: 560px;
+    margin-top: 6em;
+  }
 
-    .StoryPage_parent .StoryPage_child2
-    {
-        height: 300px;
-        width: 600px;
-        margin-top:12em;
+  .StoryPage_parent .StoryPage_child2 {
+    height: 300px;
+    width: 600px;
+    margin-top: 12em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para1 {
+    margin: 0em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    padding: 0em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para2 {
+    font-size: 1.9em;
+    padding-left: 0em;
+  }
+  .StoryPage_child2 .StoryPage_child2--para3 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-left: 0em;
+  }
 
-    }
-    .StoryPage_child2 .StoryPage_child2--para1{
-        margin:0em;
-        margin-bottom:1em;
-        font-size:1.1em;
-        padding:0em;
-    }
-    .StoryPage_child2 .StoryPage_child2--para2{
-        font-size:1.9em;
-        padding-left: 0em;
-    }
-    .StoryPage_child2 .StoryPage_child2--para3{
-        margin-top:0em;
-        margin-bottom:0em;
-        font-size:1em;
-        line-height:1.5em;
-        padding-left: 0em;
-    }
-
-    .StoryPage_child2 .StoryPage_child2--para4{
-        margin-top:2.6em;
-        font-size:1em;
-        font-weight:normal;
-        text-align:left;
-        padding-left:0em;
-    }
-
-   
-    
+  .StoryPage_child2 .StoryPage_child2--para4 {
+    margin-top: 2.6em;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 0em;
+  }
 }
