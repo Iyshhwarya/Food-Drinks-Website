@@ -182,13 +182,20 @@
     </section>
     <!--FeaturePage ends-->
     <!--VedioPage starts-->
-    <!-- <section class="VedioPage">
-        <div class="VedioPage_child1">
-            <video class="VedioPage_child1--vedio" poster="./images/video/video-bg.png" controls>
-            <a href="https://www.youtube.com/watch?v=up68UAfH0d0"></a>
-            </video>
+    <section class="VideoPage">
+        <div class="VideoPage_child1">
+            <div class="video-poster"><img src="./images/video/video-bg.png" alt="Video Poster"></div>
+            <div class="VideoPage_child2">
+                <div class="VideoPage_child2--circle1" onclick="playVedioFunction()">
+                    <div class="VideoPage_child2--circle2"></div>
+                    <div class="VideoPage_child2--circle3"></div>
+                </div>
+            </div>
+            <iframe id="videoFrame" src="https://www.youtube.com/embed/up68UAfH0d0" class="VideoPage_child1--video" controls></iframe>
         </div>
-    </section> -->
+    </section>
+    
+    
     <!--VedioPage ends-->
     <!--Testimonial starts-->
     <section class="TestimonialPage">

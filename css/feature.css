@@ -207,15 +207,13 @@
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        
         height:auto;
         width:100%;
     }
     .FeaturePage{
         width:100%;
-        height: 700px;
+        height: 800px;
         box-sizing:border-box;
-        
     }
     .FeaturePage .FeaturePage_parent{
         width:100%;

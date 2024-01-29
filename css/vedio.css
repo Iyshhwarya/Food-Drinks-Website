@@ -1,13 +1,121 @@
-.VedioPage
-{
-width:100%;
+.VideoPage {
+    width: 100%;
+    height: 600px;
+    /* background-color: aqua; */
 }
-.VedioPage .VedioPage_child1
-{
-cursor: context-menu;
+.VideoPage .VideoPage_child1 {
+    position: relative;
+    width: 100%;
+    height:100%;
 }
-.VedioPage_child1 .VedioPage_child1--vedio
-{
-width:100%;
 
+.VideoPage_child1 .video-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: block;
+    /* background: url('./images/video/video-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+.video-poster img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.VideoPage_child1 .VideoPage_child1--video {
+    display: none;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.VideoPage_child1 .VideoPage_child2{
+    height:100%;
+    width:100%;
+    position: relative;
+    top:0;
+    left:0;
+    
+}
+.VideoPage_child2 .VideoPage_child2--circle1{
+    background-color:white;
+    height:200px;
+    width:200px;
+    top:30%;
+    left:45%;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;        
+    position: relative;
+    opacity: 0.4;
+    cursor: pointer;
+    
+}
+.VideoPage_child2--circle1 .VideoPage_child2--circle2{
+    background-color:white;
+    height:100px;
+    width:100px;
+    position: absolute;
+    top:3.3em;
+    left:3em;
+    border-radius: 50%;
+    border:1px solid #f28d6b;
+    /* box-shadow: 0 0 0 3px #f28d6b; */
+}
+
+.VideoPage_child2--circle1 .VideoPage_child2--circle3{
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 20px solid #f28d6b; /* Change the color to your desired play button color */
+    cursor: pointer;
+    top:5.5em;
+    left:5.5em;
+    position: absolute;
+}
+
+
+
+@media(min-width:320px){
+
+    .VideoPage {
+        height: 400px;
+    }
+    .VideoPage_child1 .VideoPage_child1--video {
+        height: 400px;
+    }
+    .VideoPage_child2 .VideoPage_child2--circle1{
+        height:100px;
+        width:100px;
+        top:40%;
+        left:40%;
+        opacity:1;
+        /* background-color: #f28d6b; */
+    }
+    .VideoPage_child2--circle1 .VideoPage_child2--circle2{
+        height:60px;
+        width:60px;
+        top:1.3em;
+        left:1.25em;
+    }
+    .VideoPage_child2--circle1 .VideoPage_child2--circle3{
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 14px solid #f28d6b; /* Change the color to your desired play button color */
+        top:2.5em;
+        left:2.8em;
+        
+    }
+    
+    
+    
 }

@@ -7,3 +7,7 @@ function myfunction(){
         x.style.visibility = "hidden";
     }
 }
+function playVedioFunction(){
+    var y = document.getElementById("videoFrame");
+    y.style.display =  "block";
+}
