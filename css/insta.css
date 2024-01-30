@@ -56,14 +56,18 @@
     height: 250px;
     width: 100%;
     box-sizing: border-box;
+    
   }
 
   .InstaPage_parent .InstaPage_parent--child1
     /* .InstaPage_parent .InstaPage_parent--child2*/ {
     height: 100%;
-    width: 670px;
+    width: 100%;
     position: relative;
-    object-fit: contain;
+    
+  }
+  .InstaPage_parent--child1 .InstaPage_parent--child1--img01{
+    object-fit: cover;
   }
 }
 
