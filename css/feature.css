@@ -158,7 +158,7 @@
     display: block;
   }
   .FeaturePage_child1--image img {
-    width: 85%;
+    width: 100%;
   }
   .FeaturePage_child2 .FeaturePage_child2--para2 {
     font-size: 1.8em;

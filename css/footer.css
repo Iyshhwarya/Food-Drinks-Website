@@ -136,6 +136,7 @@
 @media (min-width: 768px) {
   .FooterPage .FooterPage_parent {
     padding: 2em;
+    
   }
   .FooterPage .FooterPage_parent--part1 {
     display: grid;
@@ -150,6 +151,7 @@
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: center;
+  
   }
   .FooterPage .FooterPage_parent {
     width: 100%;

@@ -87,6 +87,9 @@
     object-fit: contain;
   }
 
+
+
+
   @media (min-width: 1000px) {
     .InstaPage .InstaPage_parent {
       height: 300px;

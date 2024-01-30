@@ -154,7 +154,6 @@ transition:background-color 0.5s ease;
 @media only screen and (max-width:767px){
     .TestimonialPage{
        height:auto;
-       
     }
     .TestimonialPage .TestimonialPage_Parent{
         height:auto
@@ -209,6 +208,9 @@ transition:background-color 0.5s ease;
         padding-left:0em;
     }
 }
+
+
+
 @media(min-width:1000px){
     .TestimonialPage .TestimonialPage_Parent{
         height:650px;
