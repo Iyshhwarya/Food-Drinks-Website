@@ -92,6 +92,8 @@
     width: auto;
     height: auto;
     padding-bottom:4em;
+    margin:0em;
+    padding:0em;
   }
   .StoryPage_child2 .StoryPage_child2--para1 {
     font-size: 1em;
