@@ -101,16 +101,19 @@
   .StoryPage_child2 .StoryPage_child2--para1 {
     font-size: 1em;
     text-align: center;
+    
   }
   .StoryPage_child2 .StoryPage_child2--para2 {
     font-size: 1.35em;
     text-align: center;
+    padding:1em;
   }
   .StoryPage_child2 .StoryPage_child2--para3 {
     font-size: 0.9em;
     line-height: 1.4em;
     /* width: 60%; */
     text-align: center;
+    padding:1em;
   }
   .StoryPage_child2 .StoryPage_child2--para4 {
     font-size: 0.85em;
